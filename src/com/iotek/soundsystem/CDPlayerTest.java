@@ -22,6 +22,7 @@ public class CDPlayerTest {
 
     @Test
     public void cdShouldNotBeNull(){
+        System.out.println("此方法用来测试自动装配");
         assertNotNull("参数未注入",cd);
         cd.play();
     }
